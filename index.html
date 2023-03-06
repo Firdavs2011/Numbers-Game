@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex">
+        <h1 class="e33">YOU HAVE 10 SECONDS 
+            During this time, <br> you must rearrange all the numbers that are on <br> the right side, transfer them to the left</h1>
+            <p class="e33">lvl:hard</p>
+      <div class="left">
+        <div class="text-rightee"> 
+            <button id="reload-btn" onclick="reload()"><i class="fa-solid fa-rotate"></i></button>
+        </div>
+    </div>
+      <div class="right">
+        <p id="time">15</p>
+        <input type="number" placeholder="1-number" required id="input1" disabled />
+        <input type="number" placeholder="2-number" required id="input2" disabled />
+        <input type="number" placeholder="3-number" required id="input3" disabled />
+        <input type="number" placeholder="4-number" required id="input4" disabled />
+        <input type="number" placeholder="5-number" required id="input5" disabled />
+        <div class="text-right">
+          <button id="reload-btn" onclick="reload()"><i class="fa-solid fa-rotate"></i></button>
+          <button id="check-btn" onclick="check()">Check</button>
+        </div>
+      </div>
+    </div>
+    <p class="luser">you luser</p>
+    <p class="win">YOU WIN</p>
+    <script src="./index.js"></script>
+  </body>
+</html>
